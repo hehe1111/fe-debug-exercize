@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "name": "react-project-debug",
+      "request": "launch",
+      "type": "msedge",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/react-project-debug",
+      "userDataDir": "/d/edge-user-data"
+    }
+  ]
+}
