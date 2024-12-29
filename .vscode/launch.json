@@ -7,6 +7,14 @@
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}/react-project-debug",
       "userDataDir": "/d/edge-user-data"
+    },
+    {
+      "name": "react-project-debug fake domain",
+      "request": "launch",
+      "type": "msedge",
+      "url": "http://my-local-debug.com",
+      "webRoot": "${workspaceFolder}/react-project-debug",
+      "userDataDir": "/d/edge-user-data"
     }
   ]
 }
