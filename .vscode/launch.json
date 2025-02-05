@@ -39,6 +39,18 @@
       "url": "http://localhost:3000",
       "userDataDir": "/d/chrome-user-data"
     },
+    {
+      "presentation": {
+        "hidden": false,
+        "group": "chrome"
+      },
+      "name": "react-project-debug fake domain - chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://my-local-debug.com",
+      "webRoot": "${workspaceFolder}/react-project-debug/",
+      "userDataDir": "/d/chrome-user-data"
+    },
 
     // edge
     {
