@@ -1,19 +1,57 @@
 {
   "configurations": [
+    // chrome
     {
+      "presentation": {
+        "hidden": false,
+        // 如果没有配置 order 字段，则默认基于 group 字段值按字典顺序排序
+        "group": "chrome"
+        // "order": 1,
+      },
+      "name": "react-project-debug - 理解 webRoot 的作用 - 未配置",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:5173",
+      // 跟下面的配置，只有这一行不同，用于理解 webRoot 的作用
+      // "webRoot": "${workspaceFolder}/react-project-debug/",
+      "userDataDir": "/d/chrome-user-data"
+    },
+    {
+      "presentation": {
+        "hidden": false,
+        "group": "chrome"
+      },
+      "name": "react-project-debug - 理解 webRoot 的作用 - 有配置",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/react-project-debug/",
+      "userDataDir": "/d/chrome-user-data"
+    },
+
+    // edge
+    {
+      "presentation": {
+        "hidden": false,
+        "group": "edge"
+      },
       "name": "react-project-debug",
       "request": "launch",
       "type": "msedge",
       "url": "http://localhost:5173",
-      "webRoot": "${workspaceFolder}/react-project-debug",
+      "webRoot": "${workspaceFolder}/react-project-debug/",
       "userDataDir": "/d/edge-user-data"
     },
     {
+      "presentation": {
+        "hidden": false,
+        "group": "edge"
+      },
       "name": "react-project-debug fake domain",
       "request": "launch",
       "type": "msedge",
       "url": "http://my-local-debug.com",
-      "webRoot": "${workspaceFolder}/react-project-debug",
+      "webRoot": "${workspaceFolder}/react-project-debug/",
       "userDataDir": "/d/edge-user-data"
     }
   ]

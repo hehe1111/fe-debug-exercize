@@ -5,6 +5,10 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  // 用于理解 launch.json 中 webRoot 的作用
+  setTimeout(() => {
+    debugger
+  }, 1000);
 
   return (
     <>
