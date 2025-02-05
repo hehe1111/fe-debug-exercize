@@ -28,6 +28,18 @@
       "webRoot": "${workspaceFolder}/react-project-debug/",
       "userDataDir": "/d/chrome-user-data"
     },
+    {
+      "presentation": {
+        "hidden": false,
+        "group": "chrome"
+      },
+      "name": "03 - test-react-debug",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:3000",
+      // "webRoot": "${workspaceFolder}/react-project-debug/",
+      "userDataDir": "/d/chrome-user-data"
+    },
 
     // edge
     {
