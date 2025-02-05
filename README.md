@@ -18,4 +18,6 @@
 
 [理解 webRoot 的作用](https://github.com/hehe1111/fe-debug-exercize/blob/8d4da61dc7874422088628152c397ec733df0494/.vscode/launch.json#L16)
 
+[03-如何调试网页的 JS（以 React 为例）](./test-react-debug/)
+
 [sourcemap 的原理和作用 - TS 也支持 sourcemap](./ts-source-map/)
