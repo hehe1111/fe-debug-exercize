@@ -16,4 +16,6 @@
 
 ---
 
+[理解 webRoot 的作用](https://github.com/hehe1111/fe-debug-exercize/blob/8d4da61dc7874422088628152c397ec733df0494/.vscode/launch.json#L16)
+
 [sourcemap 的原理和作用 - TS 也支持 sourcemap](./ts-source-map/)
